@@ -1,0 +1,7 @@
+export const ADD_TODO = 'ADD_TODO';
+export const TOGGLE_TODO = 'TOGGLE_TODO'
+export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
+
+
+export const SIGN_IN = 'SIGN_IN'
+export const TOGGLE_LOGIN_TYPE = 'TOGGLE_LOGIN_TYPE'
