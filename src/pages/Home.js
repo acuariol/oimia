@@ -47,11 +47,7 @@ class Home extends Component {
         <View style={{ flex: 1, backgroundColor: '#f4f4f4', padding: 10 }}>
 
         </View>
-        <Footer>
-          <FooterTab>
-
-          </FooterTab>
-        </Footer>
+      
       </Container>
 
     );
