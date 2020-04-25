@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "RN063-tvOS.app"
-               BlueprintName = "RN063-tvOS"
-               ReferencedContainer = "container:RN063.xcodeproj">
+               BuildableName = "Oimia-tvOS.app"
+               BlueprintName = "Oimia-tvOS"
+               ReferencedContainer = "container:Oimia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RN063-tvOSTests.xctest"
-               BlueprintName = "RN063-tvOSTests"
-               ReferencedContainer = "container:RN063.xcodeproj">
+               BuildableName = "Oimia-tvOSTests.xctest"
+               BlueprintName = "Oimia-tvOSTests"
+               ReferencedContainer = "container:Oimia.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RN063-tvOS.app"
-            BlueprintName = "RN063-tvOS"
-            ReferencedContainer = "container:RN063.xcodeproj">
+            BuildableName = "Oimia-tvOS.app"
+            BlueprintName = "Oimia-tvOS"
+            ReferencedContainer = "container:Oimia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RN063-tvOS.app"
-            BlueprintName = "RN063-tvOS"
-            ReferencedContainer = "container:RN063.xcodeproj">
+            BuildableName = "Oimia-tvOS.app"
+            BlueprintName = "Oimia-tvOS"
+            ReferencedContainer = "container:Oimia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RN063.app"
-               BlueprintName = "RN063"
-               ReferencedContainer = "container:RN063.xcodeproj">
+               BuildableName = "Oimia.app"
+               BlueprintName = "Oimia"
+               ReferencedContainer = "container:Oimia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RN063Tests.xctest"
-               BlueprintName = "RN063Tests"
-               ReferencedContainer = "container:RN063.xcodeproj">
+               BuildableName = "OimiaTests.xctest"
+               BlueprintName = "OimiaTests"
+               ReferencedContainer = "container:Oimia.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RN063.app"
-            BlueprintName = "RN063"
-            ReferencedContainer = "container:RN063.xcodeproj">
+            BuildableName = "Oimia.app"
+            BlueprintName = "Oimia"
+            ReferencedContainer = "container:Oimia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RN063.app"
-            BlueprintName = "RN063"
-            ReferencedContainer = "container:RN063.xcodeproj">
+            BuildableName = "Oimia.app"
+            BlueprintName = "Oimia"
+            ReferencedContainer = "container:Oimia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

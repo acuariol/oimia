@@ -1,4 +1,4 @@
-package com.rn063;
+package com.oimia;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RN063";
+    return "Oimia";
   }
 }
