@@ -22,11 +22,6 @@ import { connect } from 'react-redux';
 
 class Home extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {};
-
-  }
 
   openDrawer = () => {
     const { navigation } = this.props;
@@ -47,7 +42,7 @@ class Home extends Component {
         <View style={{ flex: 1, backgroundColor: '#f4f4f4', padding: 10 }}>
 
         </View>
-      
+
       </Container>
 
     );

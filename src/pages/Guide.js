@@ -4,6 +4,7 @@ import { View, Text, Button } from 'native-base';
 import { connect } from 'react-redux';
 import preset from '../styles/preset';
 import * as actions from '../store/actions/index';
+import lang from '../lang';
 
 const image = { uri: 'http://acuario.cn/screenshot/wallpaper.jpg' };
 
@@ -17,7 +18,7 @@ const Guide = ({ navigation, dispatch }) => {
     <ImageBackground source={image} style={styles.image}>
       <View style={styles.container}>
         <View style={styles.top}>
-          <Text style={styles.title}>Acuario</Text>
+          <Text style={styles.title}>{lang['app.name']}</Text>
           <Text style={styles.subTitle}>Social Media App</Text>
         </View>
         <View style={styles.bottom}>
@@ -61,13 +62,13 @@ const styles = StyleSheet.create({
     color: '#fff',
     paddingBottom: preset.pb_6,
     fontSize: 40,
-    letterSpacing: 4,
+    letterSpacing: 2,
     transform: [{ translateY: -60 }],
   },
   subTitle: {
     color: '#fff',
     fontSize: 16,
-    letterSpacing: 2,
+    letterSpacing: 1,
     transform: [{ translateY: -60 }],
   },
   top: {

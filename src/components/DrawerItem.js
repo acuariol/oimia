@@ -1,6 +1,6 @@
 import React from 'react';
-import { Icon, Text, View, Button } from 'native-base';
-import { StyleSheet, TouchableOpacity } from 'react-native';
+import { Icon,   } from 'native-base';
+import { StyleSheet, TouchableOpacity ,Text, View,} from 'react-native';
 import preset from '../styles/preset';
 
 function DrawerItem({ icon, text, onPress }) {
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   item: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: preset.pa_4,
+    paddingVertical: preset.pa_3,
   },
   iconBox: {
     width: 24,
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     color: '#fff',
-    fontSize: 22,
+    fontSize: 18,
 
   },
   listItemText: {

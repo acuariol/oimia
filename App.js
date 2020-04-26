@@ -16,6 +16,7 @@ import LoginScreen from './src/pages/Login/index';
 import WelcomeScreen from './src/pages/Welcome';
 
 
+
 const store = createStore(todoApp, applyMiddleware(thunk));
 const Stack = createStackNavigator();
 

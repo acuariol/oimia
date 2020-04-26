@@ -9,6 +9,7 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 
 import * as actions from '../../store/actions/index';
+import lang from '../../lang';
 
 const SignInImage = { uri: 'http://acuario.cn/screenshot/sign_in_bg.jpg' };
 const SignUpImage = { uri: 'http://acuario.cn/screenshot/sign_up_bg.png' };
@@ -16,18 +17,15 @@ const SignUpImage = { uri: 'http://acuario.cn/screenshot/sign_up_bg.png' };
 const Login = ({ navigation, loginType: type, dispatch }) => {
 
   const setType = (type) => {
-    console.log(type)
     dispatch(actions.toggleLogInType(type));
   };
 
-  console.log(type)
 
   return (
     <View style={styles.container}>
       <View style={styles.top}>
         <ImageBackground source={type === 'signIn' ? SignInImage : SignUpImage} style={styles.image}>
-
-          <View style={styles.imageInner}><Text style={styles.title}>Acuario</Text></View>
+          <View style={styles.imageInner}><Text style={styles.title}>{lang['app.name']}</Text></View>
         </ImageBackground>
       </View>
 

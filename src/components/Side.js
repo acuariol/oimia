@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, Alert } from 'react-native';
-import { View, Text, ListItem, List, Icon, Right, Left } from 'native-base';
-import { useNavigation } from '@react-navigation/native';
-import * as Helper from '../../utils/helper';
-import preset from '../../styles/preset';
-import {
-  DrawerContentScrollView,
-
-} from '@react-navigation/drawer';
-
-import DrawerItem from '../DrawerItem';
+import { Alert, StyleSheet } from 'react-native';
+import { Text, View } from 'native-base';
+import * as Helper from '../utils/helper';
+import preset from '../styles/preset';
+import { DrawerContentScrollView } from '@react-navigation/drawer';
+import lang from '../lang';
+import DrawerItem from './DrawerItem';
 
 class Side extends Component {
 
@@ -52,11 +48,14 @@ class Side extends Component {
     const { navigation } = this.props;
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Acuario</Text>
+        <Text style={styles.title}>{lang['app.name']}</Text>
 
         <DrawerContentScrollView style={styles.listArea}>
           <DrawerItem icon="logo-twitter" text="首页" onPress={() => navigation.jumpTo('Home')} />
           <DrawerItem icon="md-headset" text="通知" onPress={() => navigation.jumpTo('Notifications')} />
+          <DrawerItem icon="md-headset" text="个人中心" onPress={() => navigation.jumpTo('Profile')} />
+          <DrawerItem icon="md-headset" text="评论中心" onPress={() => navigation.jumpTo('Comments')} />
+          <DrawerItem icon="md-headset" text="发现" onPress={() => navigation.jumpTo('Collections')} />
         </DrawerContentScrollView>
 
         <DrawerItem icon="ios-log-out" text="退出登录" onPress={this.alert} />
@@ -76,7 +75,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: 30,
+    fontSize: 24,
     color: '#fff',
     paddingBottom: preset.pa_10,
   },
