@@ -7,6 +7,8 @@ import NotificationsScreen from './Notifications';
 import ProfileScreen from './Profile';
 import CommentsScreen from './Comments';
 import CollectionsScreen from './Collections';
+import VideosScreen from './Videos';
+
 const Drawer = createDrawerNavigator();
 
 class Main extends Component {
@@ -18,6 +20,7 @@ class Main extends Component {
         <Drawer.Screen name="Profile" component={ProfileScreen} options={{ drawerLabel: '个人中心' }} />
         <Drawer.Screen name="Comments" component={CommentsScreen} options={{ drawerLabel: '评论' }} />
         <Drawer.Screen name="Collections" component={CollectionsScreen} options={{ drawerLabel: '发现' }} />
+        <Drawer.Screen name="Videos" component={VideosScreen} options={{ drawerLabel: '视频' }} />
       </Drawer.Navigator>
     );
   }

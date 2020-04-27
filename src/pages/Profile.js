@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Dimensions, ImageBackground, ScrollView, StyleSheet, Image } from 'react-native';
+import { Dimensions, Image, ImageBackground, ScrollView, StyleSheet } from 'react-native';
 import { Icon, Text, View } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import mock from '../mock';
 import lang from '../lang';
-
 import preset from '../styles/preset';
 
 const profile_cover  = 'http://acuario.cn/assets/oimia/profile_cover.jpg';

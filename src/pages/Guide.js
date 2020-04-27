@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, ImageBackground } from 'react-native';
-import { View, Text, Button } from 'native-base';
+import { ImageBackground, StyleSheet } from 'react-native';
+import { Button, Text, View } from 'native-base';
 import { connect } from 'react-redux';
 import preset from '../styles/preset';
 import * as actions from '../store/actions/index';
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#fff',
-    paddingBottom: preset.pb_6,
+    paddingBottom: preset.pa_6,
     fontSize: 40,
     letterSpacing: 2,
     transform: [{ translateY: -60 }],
@@ -77,11 +77,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   bottom: {
-    padding: preset.pb_6,
-    marginBottom: preset.pb_12,
+    padding: preset.pa_6,
+    marginBottom: preset.pa_12,
   },
   btn: {
-    marginTop: preset.mt_3,
+    marginTop: preset.ma_3,
     display: 'flex',
     justifyContent: 'center',
   },

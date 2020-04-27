@@ -81,6 +81,8 @@ target 'Oimia' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
+  pod 'react-native-viewpager', :path => '../node_modules/@react-native-community/viewpager'
+
   target 'OimiaTests' do
     inherit! :complete
     # Pods for testing

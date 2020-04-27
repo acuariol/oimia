@@ -56,6 +56,7 @@ class Side extends Component {
           <DrawerItem icon="md-headset" text="个人中心" onPress={() => navigation.jumpTo('Profile')} />
           <DrawerItem icon="md-headset" text="评论中心" onPress={() => navigation.jumpTo('Comments')} />
           <DrawerItem icon="md-headset" text="发现" onPress={() => navigation.jumpTo('Collections')} />
+          <DrawerItem icon="md-headset" text="视频" onPress={() => navigation.jumpTo('Videos')} />
         </DrawerContentScrollView>
 
         <DrawerItem icon="ios-log-out" text="退出登录" onPress={this.alert} />
