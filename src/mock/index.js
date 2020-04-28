@@ -121,59 +121,123 @@ export default {
     ],
   },
 
+  video: {
+    videoList: [
+      {
+        id: '1',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      },
+      {
+        id: '2',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      },
+      {
+        id: '3',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      },
+      {
+        id: '4',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      },
+      {
+        id: '5',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      }
+      ,
+      {
+        id: '6',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      },
+      {
+        id: '7',
+        uri: 'http://acuario.cn/assets/oimia/videos_1.jpg',
+      },
+    ],
+    photosList: [
+      {
+        id: 1,
+        uri: pic,
+      }, {
+        id: 2,
+        uri: pic,
+      },
+      {
+        id: 3,
+        uri: pic,
+      }, {
+        id: 4,
+        uri: pic,
+      },
+      {
+        id: 5,
+        uri: pic,
+      }, {
+        id: 6,
+        uri: pic,
+      },
+      {
+        id: 7,
+        uri: pic,
+      }, {
+        id: 8,
+        uri: pic,
+      },
+    ],
+  },
+
   collection: {
     list: [
       {
-        id:1,
+        id: 1,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:2,
+        id: 2,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:3,
+        id: 3,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:4,
+        id: 4,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:5,
+        id: 5,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:6,
+        id: 6,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:7,
+        id: 7,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
         uri: 'http://acuario.cn/assets/oimia/collection_m.jpg',
       },
       {
-        id:8,
+        id: 8,
         title: 'Mobiles',
         photos: 323,
         videos: 45,
